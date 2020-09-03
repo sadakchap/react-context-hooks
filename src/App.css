@@ -49,6 +49,7 @@ nav ul > li a {
   cursor: pointer;
   border-radius: 5px;
   transition: .2s;
+  text-transform: capitalize;
 }
 .book-list li:hover{
   opacity: .8;
