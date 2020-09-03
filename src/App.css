@@ -40,6 +40,33 @@ nav ul > li a {
   letter-spacing: 1px;
 }
 
+.book-list li{
+  margin: .5em auto;
+  padding: .5rem 1rem;
+  background-color: #6d3d6d;
+  width: 80%;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: .2s;
+}
+.book-list li:hover{
+  opacity: .8;
+  text-decoration: line-through;
+}
+.book-list .title{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.book-list .author{
+  font-size: .9rem;
+  color: #ddd;
+}
+.empty{
+  text-align: center;
+  margin: 20px;
+}
+
 @media screen and (max-width: 768px){
   nav{
     display: flex;

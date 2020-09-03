@@ -3,6 +3,7 @@ import './App.css';
 import { BookContextProvider } from './contexts/BookContext';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom';
+import BookList from './components/BookList';
 
 
 function App() {
@@ -10,8 +11,8 @@ function App() {
 		<Router>
 			<div className="App">
 				<BookContextProvider>
-					<Navbar />				
-					App Component
+					<Navbar />
+					<BookList />
 				</BookContextProvider>
 			</div>
 		</Router>
