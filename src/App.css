@@ -44,7 +44,7 @@ nav ul > li a {
   margin: .5em auto;
   padding: .5rem 1rem;
   background-color: #6d3d6d;
-  width: 80%;
+  width: 70%;
   list-style: none;
   cursor: pointer;
   border-radius: 5px;
@@ -65,6 +65,30 @@ nav ul > li a {
 .empty{
   text-align: center;
   margin: 20px;
+}
+.form{
+  margin: 0 auto;
+  width: 70%;
+}
+input[type="text"]{
+  display: inline-block;
+  width: 100%;
+  margin: .5rem auto;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #3c1f3c;
+  color: #fff;
+}
+.btn{
+  margin: 1rem auto;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #eee;
+  display: block;
+}
+.btn:hover{
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px){
