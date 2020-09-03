@@ -12,7 +12,6 @@ const BookForm = () => {
         e.preventDefault();
         if(title && author){
             dispatch({ type: "ADD_BOOK", book: { title, author } });
-            // addBook(title, author)
             setTitle(''); 
             setAuthor('');
         }else{
